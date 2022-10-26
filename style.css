@@ -1,0 +1,50 @@
+.bg-image {
+  background-image: url(https://video-images.vice.com/articles/59e634800073d04869243cbf/lede/1508259741968-Screen-Shot-2017-10-17-at-125840-PM.png?crop=1xw:0.7099xh;0xw,0.0516xh);
+  min-height: 54vh;
+
+
+
+}
+
+.logos {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+}
+
+.pic-holder {
+  position: relative;
+  text-align: center;
+}
+
+.img-one {
+  position: absolute;
+  top: 33%;
+  left: 7%;
+  color: white;
+}
+
+.img-two {
+  position: absolute;
+  top: 33%;
+  left: 28%;
+  color: white;
+}
+
+.img-three {
+  position: absolute;
+  top: 33%;
+  left: 77%;
+  color: white;
+}
+
+/* media query for medium and smaller */
+
+@media (min-width: 1271px) {
+  .pos-absolute {
+    position: absolute;
+    transform: translate(0px, 020%);
+  }
+
+  ;
+}
